@@ -6,7 +6,7 @@ document.getElementById("para1").textContent = "The Document Object Model (DOM) 
 
 document.getElementById("para2").textContent = "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.";
 
-document.getElementById("btn").click = function() {myFunction()};
+document.getElementById("btn").onclick = function() {'click'myFunction()};
 
 function myFunction () {
     var new_p = document.createElement("p")
